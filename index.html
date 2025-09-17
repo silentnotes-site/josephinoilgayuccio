@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Josephino il gayuccio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+  <style>
+    body {
+      background: linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet);
+      color: white;
+      text-align: center;
+      font-family: 'Arial', sans-serif;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 60px 20px;
+    }
+    h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.4);
+    }
+    .rainbow-text {
+      background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 900;
+    }
+    .section {
+      padding: 80px 20px;
+    }
+    .icon {
+      font-size: 60px;
+      margin: 20px;
+      animation: bounce 2s infinite;
+    }
+    #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    .card {
+      border-radius: 20px;
+      background: rgba(0,0,0,0.6);
+      color: white;
+      padding: 30px;
+      margin: 20px;
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      padding: 30px;
+      background: rgba(0,0,0,0.5);
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="particles-js"></div>
+  <header class="animate__animated animate__fadeInDown">
+    <h1 class="rainbow-text">🌈 Josephino il gayuccio 🌈</h1>
+    <p class="lead">Un posto colorato, libero e pieno di amore</p>
+    <a href="#sezione-simboli" class="btn btn-light btn-lg mt-3 animate__animated animate__pulse animate__infinite">Scopri di più</a>
+  </header>
+
+  <section id="sezione-simboli" class="section">
+    <div class="container">
+      <h2 class="rainbow-text animate__animated animate__fadeIn">Simboli di libertà</h2>
+      <div>
+        <i class="fa-solid fa-heart icon" style="color:red;"></i>
+        <i class="fa-solid fa-star icon" style="color:yellow;"></i>
+        <i class="fa-solid fa-flag icon" style="color:violet;"></i>
+        <i class="fa-solid fa-dove icon" style="color:lightblue;"></i>
+        <i class="fa-solid fa-rainbow icon" style="color:orange;"></i>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-dark bg-opacity-50">
+    <div class="container">
+      <h2 class="rainbow-text">Messaggi d’amore</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card animate__animated animate__zoomIn">
+            <h3>🌟 Amicizia</h3>
+            <p>Condividere momenti, sorrisi e sostegno, senza giudizio e con affetto.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card animate__animated animate__zoomIn animate__delay-1s">
+            <h3>💖 Amore</h3>
+            <p>Amare chi vogliamo è un diritto: l’amore non ha etichette.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card animate__animated animate__zoomIn animate__delay-2s">
+            <h3>🕊️ Libertà</h3>
+            <p>Vivere come siamo davvero, senza paura, sempre sotto lo stesso cielo arcobaleno.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="rainbow-text animate__animated animate__tada">🎉 Eventi & Celebrazioni</h2>
+      <p class="fs-5">Parate, raduni e feste colorate per celebrare l’orgoglio LGBTQ+ in tutto il mondo 🌍</p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_pride_flag.svg/800px-Gay_pride_flag.svg.png" 
+           alt="Bandiera arcobaleno" class="img-fluid rounded shadow-lg animate__animated animate__fadeInUp mt-4">
+    </div>
+  </section>
+
+  <footer>
+    🌈 Con amore e orgoglio – Josephino 💖  
+    <br>
+    <i class="fab fa-instagram"></i> <i class="fab fa-twitter"></i> <i class="fab fa-facebook"></i>
+  </footer>
+
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 100 },
+        "size": { "value": 3 },
+        "move": { "speed": 2 },
+        "line_linked": { "enable": true, "color":"#fff" },
+        "color": { "value": "#ffffff" }
+      }
+    });
+  </script>
+</body>
+</html>
