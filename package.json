@@ -1,0 +1,27 @@
+{
+  "name": "josephino-il-gayuccio",
+  "version": "1.0.0",
+  "description": "Un sito arcobaleno colorato e animato con simboli LGBT",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "lgbt",
+    "rainbow",
+    "bootstrap",
+    "animate.css",
+    "particles.js",
+    "fontawesome",
+    "html"
+  ],
+  "author": "Josephino",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "animate.css": "^4.1.1",
+    "@fortawesome/fontawesome-free": "^6.5.0",
+    "particles.js": "^2.0.0",
+    "serve": "^14.2.0"
+  }
+}
